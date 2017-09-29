@@ -6,16 +6,22 @@ using System;
 
 namespace ReadCSVDependencyInjection
 {
-    // This class is implemented as a singleton
+    /// <summary>
+    /// A Singleton to give us access to DI
+    /// </summary>
     public sealed class DependencyInjections
     {
         private static readonly Lazy<DependencyInjections> lazy =
             new Lazy<DependencyInjections>(() => new DependencyInjections());
 
-        // You only access the ServiceProvider if you retrieved a reference to through Instance first
-        public  readonly ServiceProvider ServiceProvider;
+        /// <value>
+        /// Gets the ServiceProvider if you retrieved a reference to through Instance first
+        /// </value>
+        public readonly ServiceProvider ServiceProvider;
 
-        // Use this to get a reference to the dependecy resolver
+        /// <summary>
+        /// Gets a reference to the dependecy resolver
+        /// </summary>
         public static DependencyInjections Instance { get { return lazy.Value; } }
 
         private DependencyInjections()
