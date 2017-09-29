@@ -1,0 +1,9 @@
+c:\users\user\documents\visual studio 2017\Projects\ReadCSV\ReadCSV\bin\Debug\netcoreapp2.0\ReadCSV.deps.json
+c:\users\user\documents\visual studio 2017\Projects\ReadCSV\ReadCSV\bin\Debug\netcoreapp2.0\ReadCSV.dll
+c:\users\user\documents\visual studio 2017\Projects\ReadCSV\ReadCSV\bin\Debug\netcoreapp2.0\ReadCSV.pdb
+c:\users\user\documents\visual studio 2017\Projects\ReadCSV\ReadCSV\obj\Debug\netcoreapp2.0\ReadCSV.csproj.CoreCompileInputs.cache
+c:\users\user\documents\visual studio 2017\Projects\ReadCSV\ReadCSV\obj\Debug\netcoreapp2.0\ReadCSV.AssemblyInfoInputs.cache
+c:\users\user\documents\visual studio 2017\Projects\ReadCSV\ReadCSV\obj\Debug\netcoreapp2.0\ReadCSV.AssemblyInfo.cs
+c:\users\user\documents\visual studio 2017\Projects\ReadCSV\ReadCSV\obj\Debug\netcoreapp2.0\ReadCSV.dll
+c:\users\user\documents\visual studio 2017\Projects\ReadCSV\ReadCSV\obj\Debug\netcoreapp2.0\ReadCSV.pdb
+C:\Users\User\documents\visual studio 2017\Projects\ReadCSV\ReadCSV\obj\Debug\netcoreapp2.0\ReadCSV.csprojResolveAssemblyReference.cache

@@ -1,0 +1,13 @@
+C:\Users\User\documents\visual studio 2017\Projects\ReadCSV\ReadCSVBusinessLayer\bin\Release\netcoreapp2.0\ReadCSVBusinessLayer.deps.json
+C:\Users\User\documents\visual studio 2017\Projects\ReadCSV\ReadCSVBusinessLayer\bin\Release\netcoreapp2.0\ReadCSVBusinessLayer.dll
+C:\Users\User\documents\visual studio 2017\Projects\ReadCSV\ReadCSVBusinessLayer\bin\Release\netcoreapp2.0\ReadCSVBusinessLayer.pdb
+C:\Users\User\documents\visual studio 2017\Projects\ReadCSV\ReadCSVBusinessLayer\bin\Release\netcoreapp2.0\ReadCSV.dll
+C:\Users\User\documents\visual studio 2017\Projects\ReadCSV\ReadCSVBusinessLayer\bin\Release\netcoreapp2.0\ReadCSVDAL.dll
+C:\Users\User\documents\visual studio 2017\Projects\ReadCSV\ReadCSVBusinessLayer\bin\Release\netcoreapp2.0\ReadCSVDAL.pdb
+C:\Users\User\documents\visual studio 2017\Projects\ReadCSV\ReadCSVBusinessLayer\bin\Release\netcoreapp2.0\ReadCSV.pdb
+C:\Users\User\documents\visual studio 2017\Projects\ReadCSV\ReadCSVBusinessLayer\obj\Release\netcoreapp2.0\ReadCSVBusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2017\Projects\ReadCSV\ReadCSVBusinessLayer\obj\Release\netcoreapp2.0\ReadCSVBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\User\documents\visual studio 2017\Projects\ReadCSV\ReadCSVBusinessLayer\obj\Release\netcoreapp2.0\ReadCSVBusinessLayer.AssemblyInfoInputs.cache
+C:\Users\User\documents\visual studio 2017\Projects\ReadCSV\ReadCSVBusinessLayer\obj\Release\netcoreapp2.0\ReadCSVBusinessLayer.AssemblyInfo.cs
+C:\Users\User\documents\visual studio 2017\Projects\ReadCSV\ReadCSVBusinessLayer\obj\Release\netcoreapp2.0\ReadCSVBusinessLayer.dll
+C:\Users\User\documents\visual studio 2017\Projects\ReadCSV\ReadCSVBusinessLayer\obj\Release\netcoreapp2.0\ReadCSVBusinessLayer.pdb

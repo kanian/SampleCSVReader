@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "ReadCSVBusinessLayer/1.0.0": {
+        "dependencies": {
+          "ReadCSV": "1.0.0",
+          "ReadCSVDAL": "1.0.0"
+        },
+        "runtime": {
+          "ReadCSVBusinessLayer.dll": {}
+        }
+      },
+      "ReadCSV/1.0.0": {
+        "runtime": {
+          "ReadCSV.dll": {}
+        }
+      },
+      "ReadCSVDAL/1.0.0": {
+        "dependencies": {
+          "ReadCSV": "1.0.0"
+        },
+        "runtime": {
+          "ReadCSVDAL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ReadCSVBusinessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReadCSV/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReadCSVDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

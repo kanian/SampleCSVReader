@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="files\**" />
+    <EmbeddedResource Remove="files\**" />
+    <None Remove="files\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="TestData\TestOutput\address_output.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TestFiles Include=".\TestData\testcsv.csv;.\TestData\testoutput.txt;.\TestData\testaddressoutput.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0-preview-20170628-02" />
+    <PackageReference Include="Moq" Version="4.7.127" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.1.18" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.1.18" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReadCSVBusinessLayer\ReadCSVBusinessLayer.csproj" />
+    <ProjectReference Include="..\ReadCSVDAL\ReadCSVDAL.csproj" />
+    <ProjectReference Include="..\ReadCSVDependencyInjection\ReadCSVDependencyInjection.csproj" />
+    <ProjectReference Include="..\ReadCSV\ReadCSV.csproj" />
+  </ItemGroup> 
+  <Target Name="CopyCustomContent" AfterTargets="AfterBuild">
+	<Copy SourceFiles="@(TestFiles)" DestinationFolder="$(OutDir)\TestData\" />
+	<Copy SourceFiles="@(TestOutputFiles)" DestinationFolder="$(OutDir)\TestData\TestOutput\" />
+	</Target>
+	<Target Name="CopyCustomContentOnPublish" AfterTargets="Publish">
+	  <Copy SourceFiles="@(TestFiles)" DestinationFolder="$(PublishDir)\TestData\" />
+	  <Copy SourceFiles="@(TestOutputFiles)" DestinationFolder="$(OutDir)\TestData\TestOutput\" />
+  </Target>
+</Project>
