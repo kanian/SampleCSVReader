@@ -669,15 +669,12 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSV\\ReadCSV.csproj",
+      "projectUniqueName": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSV\\ReadCSV.csproj",
       "projectName": "ReadCSV",
-      "projectPath": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSV\\ReadCSV.csproj",
+      "projectPath": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSV\\ReadCSV.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSV\\obj\\",
+      "outputPath": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSV\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

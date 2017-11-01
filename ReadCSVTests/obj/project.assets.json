@@ -5889,15 +5889,12 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVTests\\ReadCSVTests.csproj",
+      "projectUniqueName": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVTests\\ReadCSVTests.csproj",
       "projectName": "ReadCSVTests",
-      "projectPath": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVTests\\ReadCSVTests.csproj",
+      "projectPath": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVTests\\ReadCSVTests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVTests\\obj\\",
+      "outputPath": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5917,17 +5914,17 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSV\\ReadCSV.csproj": {
-              "projectPath": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSV\\ReadCSV.csproj"
+            "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVBusinessLayer\\ReadCSVBusinessLayer.csproj": {
+              "projectPath": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVBusinessLayer\\ReadCSVBusinessLayer.csproj"
             },
-            "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVDAL\\ReadCSVDAL.csproj": {
-              "projectPath": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVDAL\\ReadCSVDAL.csproj"
+            "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVDAL\\ReadCSVDAL.csproj": {
+              "projectPath": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVDAL\\ReadCSVDAL.csproj"
             },
-            "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVBusinessLayer\\ReadCSVBusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVBusinessLayer\\ReadCSVBusinessLayer.csproj"
+            "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVDependencyInjection\\ReadCSVDependencyInjection.csproj": {
+              "projectPath": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVDependencyInjection\\ReadCSVDependencyInjection.csproj"
             },
-            "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVDependencyInjection\\ReadCSVDependencyInjection.csproj": {
-              "projectPath": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVDependencyInjection\\ReadCSVDependencyInjection.csproj"
+            "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSV\\ReadCSV.csproj": {
+              "projectPath": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSV\\ReadCSV.csproj"
             }
           }
         }
@@ -5941,19 +5938,8 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "MSTest.TestFramework": {
-            "target": "Package",
-            "version": "1.1.18"
-          },
-          "MSTest.TestAdapter": {
-            "target": "Package",
-            "version": "1.1.18"
-          },
-          "Moq": {
-            "target": "Package",
-            "version": "4.7.127"
-          },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
@@ -5961,6 +5947,18 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "15.3.0-preview-20170628-02"
+          },
+          "Moq": {
+            "target": "Package",
+            "version": "4.7.127"
+          },
+          "MSTest.TestAdapter": {
+            "target": "Package",
+            "version": "1.1.18"
+          },
+          "MSTest.TestFramework": {
+            "target": "Package",
+            "version": "1.1.18"
           }
         },
         "imports": [

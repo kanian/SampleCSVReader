@@ -685,15 +685,12 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVDAL\\ReadCSVDAL.csproj",
+      "projectUniqueName": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVDAL\\ReadCSVDAL.csproj",
       "projectName": "ReadCSVDAL",
-      "projectPath": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVDAL\\ReadCSVDAL.csproj",
+      "projectPath": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVDAL\\ReadCSVDAL.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVDAL\\obj\\",
+      "outputPath": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVDAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -713,8 +710,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSV\\ReadCSV.csproj": {
-              "projectPath": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSV\\ReadCSV.csproj"
+            "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSV\\ReadCSV.csproj": {
+              "projectPath": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSV\\ReadCSV.csproj"
             }
           }
         }

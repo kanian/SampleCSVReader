@@ -787,15 +787,12 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVApplication\\ReadCSVApplication.csproj",
+      "projectUniqueName": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVApplication\\ReadCSVApplication.csproj",
       "projectName": "ReadCSVApplication",
-      "projectPath": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVApplication\\ReadCSVApplication.csproj",
+      "projectPath": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVApplication\\ReadCSVApplication.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVApplication\\obj\\",
+      "outputPath": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -815,11 +812,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVBusinessLayer\\ReadCSVBusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVBusinessLayer\\ReadCSVBusinessLayer.csproj"
+            "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVBusinessLayer\\ReadCSVBusinessLayer.csproj": {
+              "projectPath": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVBusinessLayer\\ReadCSVBusinessLayer.csproj"
             },
-            "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVDependencyInjection\\ReadCSVDependencyInjection.csproj": {
-              "projectPath": "C:\\Users\\User\\documents\\visual studio 2017\\Projects\\ReadCSV\\ReadCSVDependencyInjection\\ReadCSVDependencyInjection.csproj"
+            "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVDependencyInjection\\ReadCSVDependencyInjection.csproj": {
+              "projectPath": "c:\\Users\\User\\Documents\\Visual Studio 2017\\Projects\\ReadCSV\\ReadCSVDependencyInjection\\ReadCSVDependencyInjection.csproj"
             }
           }
         }
@@ -833,14 +830,14 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "2.0.0"
           }
         },
         "imports": [
